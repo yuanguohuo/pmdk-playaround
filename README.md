@@ -104,7 +104,7 @@ crw------- 1 root root 250, 21 Jun  9 10:36 /dev/dax0.0
 
 - 运行程序
 
-注意：因为当前模块不支持Saft Shutdown State (SDS)特性，所以Makefile中通过PMEMOBJ_CONF="sds.at_create=0"告知PMDK；
+注意：因为当前模块不支持Safe Shutdown State (SDS)特性，所以Makefile中通过PMEMOBJ_CONF="sds.at_create=0"告知PMDK；
 
 ```
 # make clean
